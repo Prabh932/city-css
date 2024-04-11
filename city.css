@@ -1,0 +1,44 @@
+:root{--theme: #b33939; --light: #d1ccc0; --black: #1e272e}
+*{box-sizing: border-box; line-height: 1.8em; font-family: "Montserrat", sans-serif;}
+h1,h2,h3,h4,h5,h6{font-family: "playfair Display", serif;}
+body{background: var(--light); color: var(--black); margin: 0; padding: 0px;}
+a{text-decoration: none;}
+header{background: var(--theme); padding: 10px 0px;}
+header h1{color: white; text-align: center;}
+nav{background: var(--black); color: white;}
+nav ul{list-style: none; padding: 20px 40px; margin: 0px; display: flex;
+        justify-content: space-evenly;}
+nav li{}
+nav a{color: white;}
+
+@keyframes move{
+  from{left:-100px;}
+  to{left: 4px;}
+}
+aside {position: absolute; top:200px; left:2px; animation:move 3s }
+aside img{width: 30px; height: 30px}
+main{background: white; padding: 10px 20px; width: 80%; margin: auto;}
+footer{background: var(--black); color: white; padding: 20px 0px}
+.row{display: flex}
+.col{flex: 1; padding: 5px}
+img{width: 100%}
+#gallery img{height: 350px}
+#places img{height: 250px}
+#food img{height: 150px}
+.text-justify{text-align: justify;}
+.text-center{text-align: center;}
+.fg1{color: var(--theme);}
+.fg2{color: #666;}
+.tag{font-style: italic;}
+.bg1{background: var(--theme); color: white;}
+.px2{padding: 20px}
+.
+footer{color: white;}
+footer p {width:60%; margin: auto}
+#totop{background: var(--theme); padding:10px; border-radius:50%;
+ position: fixed; bottom: 2px; right: 2px; }
+ #totop a{color:white}
+
+ nav a:hover{color: yellow;}
+ #places img:hover{border:medium inset black;  }
+ #gallery img:hover{filter: grayscale(100%);}
